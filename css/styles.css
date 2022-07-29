@@ -29,7 +29,7 @@ body {
   border-right: 1px solid #CCCCCC;
 }
 .page .sidebar-left .avatar {
-  background-image: url('images/material-design-wallpaper-1.png');
+  background-image: url('../images/material-design-wallpaper-1.png');
   height: 160px;
   width: 257px;
 }
@@ -47,7 +47,7 @@ body {
 }
 .page .sidebar-left .avatar__text:after {
   content: '';
-  background-image: url('images/icons/arrow-dropdown.png');
+  background-image: url('../images/icons/arrow-dropdown.png');
   position: absolute;
   right: 16px;
   height: 5px;
@@ -81,28 +81,28 @@ body {
   left: 24px;
 }
 .page .sidebar-left .navigation .menu-list__item.recent:before {
-  background-image: url('images/icons/time.png');
+  background-image: url('../images/icons/time.png');
 }
 .page .sidebar-left .navigation .menu-list__item.archive:before {
-  background-image: url('images/icons/archive.png');
+  background-image: url('../images/icons/archive.png');
 }
 .page .sidebar-left .navigation .menu-list__item.replied:before {
-  background-image: url('images/icons/check.png');
+  background-image: url('../images/icons/check.png');
 }
 .page .sidebar-left .navigation .menu-list__item.sent:before {
-  background-image: url('images/icons/sent.png');
+  background-image: url('../images/icons/sent.png');
 }
 .page .sidebar-left .navigation .menu-list__item.trash:before {
-  background-image: url('images/icons/trash.png');
+  background-image: url('../images/icons/trash.png');
 }
 .page .sidebar-left .navigation .menu-list__item.starred:before {
-  background-image: url('images/icons/star-mono.png');
+  background-image: url('../images/icons/star-mono.png');
 }
 .page .sidebar-left .navigation .menu-list__item.forums:before {
-  background-image: url('images/icons/forum.png');
+  background-image: url('../images/icons/forum.png');
 }
 .page .sidebar-left .navigation .menu-list__item.updates:before {
-  background-image: url('images/icons/flag.png');
+  background-image: url('../images/icons/flag.png');
 }
 .page .header {
   flex: 0 0 100%;
@@ -212,7 +212,7 @@ body {
   line-height: 28px;
 }
 .page .main .content .contacts-list.favorites::before {
-  background-image: url('/images/icons/star.png');
+  background-image: url('../images/icons/star.png');
 }
 .page .main .content .contacts-list.group-a::before {
   content: 'A';
@@ -247,40 +247,40 @@ body {
   height: 39px;
 }
 .page .main .content .contacts-list__item.favorite:nth-child(1)::before {
-  background-image: url('images/persons/Oval 24 (1).png');
+  background-image: url('../images/persons/Oval 24 (1).png');
 }
 .page .main .content .contacts-list__item.favorite:nth-child(2)::before {
-  background-image: url('images/persons/Oval 24.png');
+  background-image: url('../images/persons/Oval 24.png');
 }
 .page .main .content .contacts-list__item.favorite:nth-child(3)::before {
-  background-image: url('images/persons/Rectangle 97.png');
+  background-image: url('../images/persons/Rectangle 97.png');
 }
 .page .main .content .contacts-list__item.favorite:nth-child(4)::before {
-  background-image: url('images/persons/Oval 24 (2).png');
+  background-image: url('../images/persons/Oval 24 (2).png');
 }
 .page .main .content .contacts-list__item.a:nth-child(1)::before {
-  background-image: url('images/persons/Oval 24 (3).png');
+  background-image: url('../images/persons/Oval 24 (3).png');
 }
 .page .main .content .contacts-list__item.a:nth-child(2)::before {
-  background-image: url('images/persons/Oval 24 (4).png');
+  background-image: url('../images/persons/Oval 24 (4).png');
 }
 .page .main .content .contacts-list__item.a:nth-child(3)::before {
-  background-image: url('images/persons/Oval 24 (5).png');
+  background-image: url('../images/persons/Oval 24 (5).png');
 }
 .page .main .content .contacts-list__item.a:nth-child(4)::before {
-  background-image: url('images/persons/Oval 24 (6).png');
+  background-image: url('../images/persons/Oval 24 (6).png');
 }
 .page .main .content .contacts-list__item.a:nth-child(5)::before {
-  background-image: url('images/persons/Oval 24 (7).png');
+  background-image: url('../images/persons/Oval 24 (7).png');
 }
 .page .main .content .contacts-list__item.a:nth-child(6)::before {
-  background-image: url('images/persons/Oval 24 (8).png');
+  background-image: url('../images/persons/Oval 24 (8).png');
 }
 .page .main .content .contacts-list__item.b:nth-child(1)::before {
-  background-image: url('images/persons/Oval 24 (9).png');
+  background-image: url('../images/persons/Oval 24 (9).png');
 }
 .page .main .content .contacts-list__item.b:nth-child(2)::before {
-  background-image: url('images/persons/Oval 24 (10).png');
+  background-image: url('../images/persons/Oval 24 (10).png');
 }
 .page .main .sidebar-right {
   min-width: 432px;
@@ -291,7 +291,7 @@ body {
 .page .main .sidebar-right .person {
   position: relative;
   padding: 1.5rem;
-  background-image: url('images/persons/Rectangle 97.png');
+  background-image: url('../images/persons/Rectangle 97.png');
   min-height: 246px;
 }
 .page .main .sidebar-right .person__toolbar {
@@ -349,11 +349,11 @@ body {
   width: 18px;
 }
 .page .main .sidebar-right .contacts__phones::before {
-  background-image: url('images/icons/call.png');
+  background-image: url('../images/icons/call.png');
 }
 .page .main .sidebar-right .contacts__phones-phone::after {
   content: '';
-  background-image: url('images/icons/hangout.png');
+  background-image: url('../images/icons/hangout.png');
   position: absolute;
   right: 16px;
   height: 20px;
@@ -367,8 +367,8 @@ body {
   padding-bottom: 1.5rem;
 }
 .page .main .sidebar-right .contacts__emails::before {
-  background-image: url('images/icons/email.png');
+  background-image: url('../images/icons/email.png');
 }
 .page .main .sidebar-right .contacts__locations::before {
-  background-image: url('images/icons/place.png');
+  background-image: url('../images/icons/place.png');
 }
